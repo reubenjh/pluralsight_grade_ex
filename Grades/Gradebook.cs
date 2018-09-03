@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Grades
 {
-    class Gradebook
+    public class Gradebook
     {
-        private List<float> grades;
+        public List<float> grades;
 
         public Gradebook()
         {
